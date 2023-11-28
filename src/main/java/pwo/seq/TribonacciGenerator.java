@@ -2,22 +2,41 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
-public class TribonacciGenerator extends FibonacciGenerator {
+/**
+ * Generuje ciąg Tribonacciego, rozszerzając klasę FibonacciGenerator.
+ * Ciąg Tribonacciego to seria liczb, gdzie każda liczba jest sumą trzech poprzednich.
+ *
+  * @author emilia
+  * @version  1.0.0
+ */
+public class TribonacciGenerator extends
+        FibonacciGenerator {
 
+    /**
+     * Konstruktor inicjuje trzeci wyraz ciągu Tribonacciego na 0.
+     */
     public TribonacciGenerator() {
         f_3 = new BigDecimal(0);
     }
 
+    /**
+     * Resetuje generator Tribonacciego, wywołując metodę reset z nadklasy,
+     * a następnie ustawia trzeci wyraz na 0.
+     */
     @Override
     public void reset() {
         super.reset();
         f_3 = new BigDecimal(0);
     }
 
+    /**
+     * Oblicza i zwraca następny wyraz ciągu Tribonacciego.
+     * Przesłania metodę z nadklasy.
+     *
+     * @return Następny wyraz ciągu Tribonacciego.
+     */
     @Override
     public BigDecimal nextTerm() {
-        BigDecimal previous = current;
-
         if (lastIndex > 2) {
             current = f_1.add(f_2).add(f_3);
             f_3 = f_2;
@@ -28,12 +47,7 @@ public class TribonacciGenerator extends FibonacciGenerator {
         } else {
             current = new BigDecimal(0);
         }
-
         lastIndex++;
-
-        if (current.compareTo(previous) >= 0)
-            return current;
-        else
-            return previous.subtract(current);
+        return current;
     }
 }
