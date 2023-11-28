@@ -3,7 +3,7 @@ import java.math.BigDecimal;
 import pwo.utils.SequenceGenerator;
 /**
   * generator.
- * @author emilia
+ * @author emilia 
  * @version  1.0.0
  */
 abstract class Generator implements SequenceGenerator{

@@ -7,7 +7,7 @@ import java.nio.file.InvalidPathException;
 
 /**
  * Klasa SeqToFileApp <br>
- * @xd
+ * @sekwencja do pliku
  * @author emilia
  * @version 1.0.0
  */

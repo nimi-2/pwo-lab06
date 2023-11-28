@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /**
  * Klasa narzędziowa służąca do obsługi obiektów<br>
- * implementujących interfejs {@link SequenceGenerator}
+ * implementujących interfejs {@link SequenceGenerator} 
  *
  * @author emilia
  * @version 1.0.0

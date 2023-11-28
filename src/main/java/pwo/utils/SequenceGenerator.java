@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * Interfejs dowolnego generatora liczbowego
- * o wyrazach zdefiniowanych w zakresie od 0.
+ * o wyrazach zdefiniowanych w zakresie od 0. 
  *
  * @author emilia
  * @version 1.0.0
@@ -30,8 +30,8 @@ public interface SequenceGenerator {
    *
    * @param i Nr wyrazu ciągu dla którego
    * jest uzyskiwana wartość
-   * @return Wartość wyrazu ciągu o indeksie i
-   * @exception IllegalArgumentException jeżeli i<0
+   * @return Wartość wyrazu ciągu o indeksie i 
+   * @exception IllegalArgumentException jeżeli i jest mniejsze od 0
    * @see #nextTerm()
    */
   BigDecimal getTerm(int i);

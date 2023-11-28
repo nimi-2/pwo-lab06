@@ -7,6 +7,10 @@ package pwo.app;
  */
 public class Sequence {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         switch (args.length) {

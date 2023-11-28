@@ -6,7 +6,7 @@ import java.math.BigDecimal;
  * Generuje ciąg Tribonacciego, rozszerzając klasę FibonacciGenerator.
  * Ciąg Tribonacciego to seria liczb, gdzie każda liczba jest sumą trzech poprzednich.
  *
-  * @author emilia
+  * @author emilia 
   * @version  1.0.0
  */
 public class TribonacciGenerator extends

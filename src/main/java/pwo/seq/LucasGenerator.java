@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
   * Klasa implementująca generator ciągu Lucasa, dziedzicząca po FibonacciGenerator.
  * LucasGenerator rozszerza funkcjonalność o specyficzne dla ciągu Lucasa właściwości.
- * @author emilia
+ * @author emilia 
  * @version  1.0.0
  */
 public class LucasGenerator extends FibonacciGenerator {

@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 /**
  * Ta klasa reprezentuje generator ciągu Fibonacciego.
- * Rozszerza abstrakcyjną klasę Generator.
- * @author emilia
+ * Rozszerza abstrakcyjną klasę Generator. 
+ * @author emilia 
  * @version 1.0.0
  */
 public class FibonacciGenerator extends Generator {

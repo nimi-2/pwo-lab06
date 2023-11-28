@@ -9,7 +9,7 @@ import pwo.utils.SequenceTools;
 /**
  * Klasa SeqToOutApp <br>
  *
- * @author emilia
+ * @author emilia  
  * @version 1.0.0
  */
 public class SeqToOutApp extends SeqToFileApp {

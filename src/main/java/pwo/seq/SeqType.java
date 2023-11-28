@@ -8,7 +8,7 @@ import java.util.stream.Stream;
  * Jest to również menadżer służący do pozyskania
  * obiektu klasy ciągu metodą {@link #getGenerator() }
  *
- * @author student
+ * @author emilia
  * @version 1.0.0
  */
 
